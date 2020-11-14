@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'ccas.apps.CcasConfig',
     'lecturers.apps.LecturersConfig',
     'modules.apps.ModulesConfig',
     'rooms.apps.RoomsConfig',
